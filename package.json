@@ -1,0 +1,52 @@
+{
+  "name": "queuebernetes",
+  "description": "Long running job queue for Kubernetes",
+  "version": "0.10.1",
+  "author": "Garrick Meeker",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "private": "false",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gmeeker/gentlejs.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "dependencies": {
+    "argparse": "^1.0.10",
+    "difflib": "^0.2.4",
+    "fs-extra": "^7.0.1",
+    "json-stable-stringify": "^1.0.1",
+    "lodash": "^4.17.11",
+    "loglevel": "^1.6.1",
+    "tmp": "^0.0.33",
+    "wav": "^1.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.11.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "prettier": {
+    "useTabs": false,
+    "bracketSpacing": true,
+    "tabWidth": 1,
+    "printWidth": 100,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "jsxBracketSameLine": false,
+    "parser": "babylon",
+    "semi": true
+  },
+  "tags": [
+    "kubernetes",
+    "queue"
+  ]
+}
