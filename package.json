@@ -1,6 +1,6 @@
 {
-  "name": "queuebernetes",
-  "description": "Long running job queue for Kubernetes",
+  "name": "gentlejs",
+  "description": "Port of Gentle forced aligner to JavaScript",
   "version": "0.10.1",
   "author": "Garrick Meeker",
   "main": "lib/index.js",
